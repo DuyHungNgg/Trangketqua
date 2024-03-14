@@ -1,0 +1,111 @@
+body{
+
+}
+div{
+    display: block;
+    border: 0;
+    vertical-align: baseline;
+}
+.header{
+    display: inline-flex;
+    width: 100%;
+    padding: 40px 0 30px;
+    border-bottom: 3px solid red;
+}
+.logobxh{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    padding: 15px 0;
+}
+.name {
+    width: 1500px;
+    text-align: center;
+    padding: 10px 0 10px;
+    line-height: 28px;
+}
+
+.name p{
+    margin: 30px 0 0;
+    width: 1500px;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}
+.header-items{
+    width: 173px;
+}
+.header-icon-link{
+    cursor: pointer;
+}
+.header-icon{
+    font-size: 30px;
+    margin-top: 37px;
+    padding: 0 25px;
+    align-items: center;
+}
+.content{
+    width: 100%;
+    margin-top: 100px;
+    border: ridge 2px red;
+    display: inline-flex
+}
+.menu{
+    width: 1825px;
+    display: block;
+}
+ul.ketqua{
+    width: 1200px;
+    margin: 50px 0px;
+    padding: 0;
+    text-align: center;
+}
+.ketqua-li{
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    height: 20px;
+    margin: 0 80px 40px ;
+    padding: 10px;
+    border: ridge 1px #000;
+    border-radius: 5px;
+    background-color:rgb(119, 3, 3);
+}
+a{
+    text-decoration: none;
+}
+.ketqua-span{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.taikhoan{
+    width: 100%;
+    display: inline-flex;
+}
+.content-taikhoan{
+    margin: 69px 0;
+    width: 250px;
+    height: 250px;
+}    
+ul.thongtin{
+    margin-top: 69px;
+    padding-left: 30px;
+}
+.thongtin-li{
+    cursor: pointer;
+    display: block;
+    width: 342px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: ridge 1px #000;
+    border-radius: 5px;
+    background-color:rgb(119, 3, 3);
+
+}
+.thongtin-span{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
